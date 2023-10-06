@@ -1,7 +1,4 @@
-* {
-    padding: 0;
-    margin: 0;
-}
+
 .external {
     color: brown;
 }
@@ -54,3 +51,101 @@
     padding: 20px 10px 5px 10px; /* Espaçamento interno, cada valor esta em sentindo horario  */
     margin: 20px;  /* margin interna  */
 }
+
+/* Propriedades de texto */
+
+.alinhamento {
+    text-align: center;
+}
+
+.transforma-maisculo {
+    text-transform: uppercase;
+}
+
+.transforma-minusculo {
+    text-transform: lowercase;
+}
+
+/* Espaçamento de linhas e letras */
+.espacamento-texto {
+    width: 150px;
+    line-height: 40px;
+    letter-spacing: 8px;
+}
+
+/* Links */
+
+.decoration {
+    text-decoration: none;
+}
+
+.visitado:visited {
+    color: orange;
+}
+
+.estilo-houver:hover {
+    background-color: #d2691e;
+}
+/* link em button */
+.btn {
+    background-color: #34ae33;
+    border: 3px solid #234966;
+    border-radius: 5px; /* raio da borda */
+    color: white;
+    text-decoration: none;
+    display: block; /* ele vai tomar a linha toda para ele */
+    width: 120px;
+    padding: 12px 7px;
+    text-align: center;
+    margin: 20px;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    background-color: #234966;
+}
+
+/* Listas */
+.sem-estilo {
+    list-style: none;
+}
+
+.Inline {
+    width: 50px;
+    height: 50px;
+    background-color: #34ae33;
+    margin: 5px;
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
+
+/* position-fixed */
+.elemento-fixo {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background-color: #1292ae;
+    border-bottom: 2px solid #342299;
+    color: #fff;
+}
+
+/* Pesudo Seletor ou pseudo class */
+.Primeiro-elemento p:first-child {
+    color: purple;
+    font-weight: bold;
+}
+/* pseudo elemento */ 
+.primeira-letra::first-letter {
+    font-weight: 40px;
+    color: blue;
+    background-color: red;
+    padding: 4px;
+}
+
+/* o que diferencia um e outro é os dois pontos duas vez para o pseudo elemento */
