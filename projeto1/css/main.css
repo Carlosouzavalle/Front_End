@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* eu vou ter um elemento que respeita a largura que eu determinei */
+    font-family: Helvetica;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #3db36b;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-bottom: #256a40 solid 3px;
+}
+
+/* Grid de Produtos */
+.container {
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.products-container {
+    max-width: 1200px;
+    margin: 0 auto;  /* 0 em cima e abaixo e auto nas laterais */
+}
+
+.card {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.product-image {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover; /* ele tenta mostrar o maximo da imagem na area que eu tenho */
+}
+
+#img-1 {
+    background-image: url('/projeto1/imgs/delicious-italian-pizza-with-tomato-olives-pepperoni-mushrooms-top-view-isolated-white-background-still-life-copy-space.jpg');
+}
+
+#img-2 {
+    background-image: url('/projeto1/imgs/mushroom-pizza-vegetarian-white-background-isolated-still-life-copy-space-top-view-flat-lay.jpg');
+
+}
+
+#img-3 {
+    background-image: url('/projeto1/imgs/thinly-sliced-pepperoni-is-popular-pizza-topping-american-style-pizzerias-isolated-white-background-still-life.jpg');
+
+}
+
+#img-4 {
+    background-image: url('/projeto1/imgs/pexels-shameel-mukkath-15029952.jpg');
+
+}
+
+#img-5 {
+    background-image: url('/projeto1/imgs/pexels-the-good-burger-12325045.jpg');
+
+}
+
+#img-6 {
+    background-image: url('/projeto1/imgs/pexels-valeria-boltneva-1639565.jpg');
+
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #3db36b;
+    font-size: 24px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #3db36b;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #256a40;
+    transition: 0.5s;
+}
+
+/* Footer */
+
+footer {
+    background-color: #3db36b;
+    color: #fff;
+    border-top: #256a40 solid 3px;
+    text-align: center;
+    padding: 80px;
+}
