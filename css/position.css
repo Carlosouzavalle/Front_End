@@ -1,0 +1,46 @@
+div {
+    height: 50px;
+    background-color: chocolate;
+    border: 1px solid #222;
+    padding: 10px;
+}
+
+/*  Relative */
+.relative {
+    background-color: #321;
+    position: relative;
+    color: #fff;
+}
+
+.relative-alterada {
+    top: 20px;
+    left: 20px;
+}
+
+/* absolute */
+.absolute {
+    height: 25px;
+    width: 70px;
+    background-color: rgb(9, 227, 16);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+html {
+    padding-bottom: 1000px;
+}
+
+/* fixed */
+.fixed {
+    position: fixed;
+}
+
+/* Sticky */
+.Sticky {
+    position: sticky;
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    background-color: #881;
+}

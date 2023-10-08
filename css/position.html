@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="position.css">
+</head>
+<body>
+    <!-- Fluxo do Html: A posição dos elementos, seguindo a ordem das tags
+    Static: posição padrão dos elementos
+    Relative: posição que podemos modificar as direções
+    Absolute: pode se referenciar pela tela ou algum elemento
+    Fixed: posição que fixa o elemento na tela
+    Sticky: uma mistura de fixed com relative -->
+
+
+    <!-- Static -->
+    <div>Static</div>
+    <div class="Sticky">Sticky</div>
+    <div>Static</div>
+    <div class="relative relative-alterada">Relative</div>
+    <div>Static</div>
+    <p>Este é o meu paragrafo</p>
+    <div class="Sticky">Sticky</div>
+    <div>Static</div>
+    <!-- Relative -->
+    <div class="relative">Relative
+        <div class="absolute">absolute</div>
+            <!-- absolute não é interesante deixar ela solta no mundo o ideal é que ela esteja dentro de outra div 
+            que tenha um pai para conter ela-->
+    </div>
+    <!-- o fixed não tem pai mae nem mãe então não adiantar por ele dentro de outra div -->
+    <div class="fixed">fixed</div>
+</body>
+</html>
