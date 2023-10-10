@@ -1,0 +1,5 @@
+grid-template-columns = com essa linha posso trabalhar as colunas de maneiras iguais
+grid-template-rows = com essa as linhas
+gap = serve para dar um espaçamento
+grid-row-gap = para trabalhar as linhas individualmente (desuso)
+grid-column-gap = para trabalhar as columns individualmente (desuso)

@@ -1,0 +1,121 @@
+/* .container {
+    background-color: #333;
+    border: 1px solid red;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 50px auto 10%;
+    height: 35vh;
+    grid-template-rows: 70% 30%;
+    gap: 5px;
+    /* grid-row-gap: 10px;
+    grid-column-gap: 20px; */
+    
+/* } */
+
+/* .container div {
+    background-color: #ccc;
+    padding: 20px;
+    border: 1px solid blue;
+} */ 
+
+
+/* Template area */
+/* .container {
+    background-color: #333;
+    border: 1px solid red;
+    padding: 15px;
+    display: grid;
+    gap: 5px;
+    /* grid-row-gap: 10px;
+    grid-column-gap: 20px; */
+    /* grid-template-areas: 
+    'header header header header'
+    'sidebar content content content'
+    'footer footer footer footer';
+    
+ } */
+
+/* .container div {
+    background-color: #ccc;
+    padding: 20px;
+    border: 1px solid blue;
+} 
+
+#header {
+    grid-area: header;
+}
+#sidebar {
+    grid-area: sidebar;
+    height: 50vh;
+}
+#content {
+    grid-area: content;
+    height: 50vh;
+}#footer {
+    grid-area: footer;
+}  */
+
+/* Alinhamento */
+/* .container {
+    background-color: #333;
+    border: 1px solid red;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 40vh;   
+    /* alinhamento horizontal */
+    /* justify-content: center;
+    /* alinhamento vertical */
+    /* align-items: center;
+}  */
+/* 
+.container div {
+    background-color: #ccc;
+    padding: 20px;
+    border: 1px solid blue;
+}  */
+
+/*  items */
+.container {
+    background-color: #333;
+    border: 1px solid red;
+    padding: 15px;
+    display: grid; 
+    
+}
+
+
+.container div {
+    background-color: #ccc;
+    padding: 20px;
+    border: 1px solid blue;
+} 
+
+#item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#item2 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+#item3 {
+    justify-self: end;
+    height: 200px;
+}
+
+#item5 {
+    justify-self: start;
+    height: 200px;
+}
+
+#item4 {
+     align-self: center;
+
+}
+
+#item6 {
+    align-self: end;
+}
