@@ -1,0 +1,22 @@
+Absolutas
+
+px
+cm
+mm
+================================================
+viewport
+
+vh
+vw
+vmin
+vmax
+================================================
+font
+
+rem
+em
+
+
+obs: viewport tamanho visivel da pagina, 
+EM: se basea no tamanho da fonte do elemento pagina
+REM: se basea no tamanho da fonte do  html/da sua aplicação
