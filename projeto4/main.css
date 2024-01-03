@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+}
+.naviBarContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Cor de fundo da navbar */
+    padding: 30px; /* Espaçamento interno da navbar */
+    color: white; /* Cor do texto na navbar */
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.navList {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.li_item {
+    margin-right: 50px;
+}
+
+.li_item a {
+    text-decoration: none; /* Remover sublinhado dos links */
+    color: white; /* Cor do texto dos links na navbar */
+}
+
+.banner-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.banner {
+    width: 100%; /* Garante que a imagem ocupe toda a largura do contêiner */
+}
+
+.banner_title {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Adicione a cor desejada para o texto */
+    text-align: center;
+    max-width: 80%; /* Ajuste a largura máxima conforme necessário */
+    margin: 10px 0; /* Adiciona espaçamento vertical de 10 pixels */
+}
+
+.p_title {
+    position: absolute;
+    top: 35%;
+    max-width: 80%; 
+    margin: 10px 0;
+}
+
+.button_banner {
+    position: absolute;
+    top: 40%;
+    max-width: 80%; 
+    margin: 10px 0;
+}
