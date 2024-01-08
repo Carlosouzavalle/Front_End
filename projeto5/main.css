@@ -147,3 +147,14 @@ section .main .button a {
     color: white;
     text-decoration: none;
 }
+
+section .main .button i {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+section .main .button:hover i{
+    transform: translate(6px); 
+    /* essa linha faz uma pequena animação do botao de comprar */
+}
