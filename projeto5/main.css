@@ -158,3 +158,21 @@ section .main .button:hover i{
     transform: translate(6px); 
     /* essa linha faz uma pequena animação do botao de comprar */
 }
+
+
+/* Products */
+
+.products {
+    width: 100%;
+    height: 140vh;
+    padding: 25px 0;
+}
+
+.products h1 {
+    margin: 35px 0;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
